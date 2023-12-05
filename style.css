@@ -1,0 +1,54 @@
+ html {
+    font-size: 17px;
+ }
+ 
+ .container{
+    display: block;
+    width: 70%;
+    margin: 10px 20px;
+    background-color: rgb(184, 184, 184);
+ }
+ 
+ form {     
+    padding: 20px;      
+ }
+ 
+ .dates{
+    display: flex;   
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+ }
+ 
+ .result{
+    display: flex;
+    width: 100%;   
+    margin: 10px;
+ }
+ 
+ input, button{   
+    font-size: 0.8rem;
+    padding: 0.6rem;
+    border: 1px solid rgb(100, 100, 100);
+    border-radius: 4px;
+    margin: 5px;
+ }
+ 
+ button {
+    background-color: #253f3f;   
+    color: #ffffff;   
+ }
+ 
+ button:hover{
+    background-color: #5d748d;
+    cursor: pointer;
+ }
+ 
+ textarea{
+    box-sizing: border-box;
+    width: 98%;
+    height: 8.5rem; 
+    font-size: 0.9rem;    
+    border: 1px solid rgb(59, 56, 56);
+    border-radius: 4px; 
+ } 
