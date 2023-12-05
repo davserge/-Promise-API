@@ -27,10 +27,6 @@ function getDate(startDate, endDate) {
 
         result.push(new Date(i).toString().substring(0, 10)) 
         
-//Местное время: let date = new Date();
-//date = date.toJSON().slice(0, 10);
-
-//Время UTC: let date = new Date().toISOString();
 //date = date.substring(0, 10);
 //Дата будет напечатана 15 июня 20.... г. 
 // toISOString() возвращает дату по стандарту ISO, котораяYYYY-MM-DDTHH:mm:ss.sssZ
@@ -67,11 +63,7 @@ function solution(range) {
         if(a.cur < b.cur) return -1;
         if (a.cur > b.cur) return 1;
 
-//как следует сортировать первое значение по отношению ко второму:
-// -1 означает, что первое идет перед вторым, 1 означает, что оно идет после, 
-//0 означает, что они эквивалентны.
-
-        // если курсы равны - сортируем по дате
+       // если курсы равны - сортируем по дате
 
         if(a.date < b.date) return -1;
         if (a.date > b.date) return 1;
